@@ -52,7 +52,7 @@ In the future, we could introduce multivariate analysis such as Cox Proportional
 ---
 ### 6. Repository Structure
 ```
-bc-survival-analysis/
+bern02-bc-survival-analysis/
 ├── .gitignore                      # Excludes cache files and virtual environments
 ├── LICENSE                         # MIT License
 ├── README.md                       # Documentation, risk assessment & FAIR analysis
@@ -60,9 +60,9 @@ bc-survival-analysis/
 ├── requirements.txt                # Pip dependency specifications
 ├── data/                           # Clinical datasets 
 │   ├── raw/
-    │    └── SEER_Breast_Cancer_Dataset.csv
-    └── processed/
-          └── data_clean.csv
+│   │    └── SEER_Breast_Cancer_Dataset.csv
+│   └── processed/
+│          └── data_clean.csv
 └── notebooks/                      # Reproducible workflows
     ├── 1_data_cleaning.ipynb
     ├── 2_analysis_tools.ipynb
